@@ -15,4 +15,10 @@ public class EnemyController : MonoBehaviour {
 	void Update () {
 	    
 	}
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Player")
+            gameObject.SetActive(false);
+    }
 }
