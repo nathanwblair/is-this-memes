@@ -85,6 +85,33 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &70726346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 70726347}
+  m_Layer: 0
+  m_Name: EnemySpawnSocket (38)
+  m_TagString: Socket
+  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &70726347
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 70726346}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
+  m_LocalPosition: {x: 5.04, y: 24.31, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1212091565}
+  m_RootOrder: 38
 --- !u!1 &149277409
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,7 +120,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 149277410}
-  - 65: {fileID: 149277411}
   m_Layer: 0
   m_Name: EnemySpawnSocket (6)
   m_TagString: Socket
@@ -113,18 +139,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 5
---- !u!65 &149277411
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 149277409}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &161483492
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,7 +147,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 161483493}
-  - 65: {fileID: 161483494}
   m_Layer: 0
   m_Name: EnemySpawnSocket (34)
   m_TagString: Socket
@@ -153,18 +166,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 34
---- !u!65 &161483494
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 161483492}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &209303485
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,7 +174,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 209303486}
-  - 65: {fileID: 209303487}
   m_Layer: 0
   m_Name: EnemySpawnSocket (12)
   m_TagString: Socket
@@ -193,18 +193,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 10
---- !u!65 &209303487
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 209303485}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &240963958
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,7 +201,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 240963959}
-  - 65: {fileID: 240963960}
   m_Layer: 0
   m_Name: EnemySpawnSocket (0)
   m_TagString: Socket
@@ -233,18 +220,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 0
---- !u!65 &240963960
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 240963958}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &280115503
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,7 +228,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 280115504}
-  - 65: {fileID: 280115505}
   m_Layer: 0
   m_Name: EnemySpawnSocket (11)
   m_TagString: Socket
@@ -273,18 +247,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 9
---- !u!65 &280115505
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 280115503}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &312368474
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,7 +283,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 352341704}
-  - 65: {fileID: 352341705}
   m_Layer: 0
   m_Name: EnemySpawnSocket (31)
   m_TagString: Socket
@@ -341,18 +302,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 30
---- !u!65 &352341705
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 352341703}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &358033072
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,7 +310,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 358033073}
-  - 65: {fileID: 358033074}
   m_Layer: 0
   m_Name: EnemySpawnSocket (18)
   m_TagString: Socket
@@ -381,18 +329,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 14
---- !u!65 &358033074
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 358033072}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &415576562
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,7 +337,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 415576563}
-  - 65: {fileID: 415576564}
   m_Layer: 0
   m_Name: EnemySpawnSocket (16)
   m_TagString: Socket
@@ -421,18 +356,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 17
---- !u!65 &415576564
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 415576562}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &445509009
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,7 +364,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 445509010}
-  - 65: {fileID: 445509011}
   m_Layer: 0
   m_Name: EnemySpawnSocket (5)
   m_TagString: Socket
@@ -461,18 +383,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 4
---- !u!65 &445509011
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 445509009}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &486445206
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,7 +391,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 486445207}
-  - 65: {fileID: 486445208}
   m_Layer: 0
   m_Name: EnemySpawnSocket (32)
   m_TagString: Socket
@@ -501,18 +410,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 31
---- !u!65 &486445208
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 486445206}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &494424534
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,7 +480,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 4.5, y: 4.5, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &494424538
 MeshFilter:
@@ -660,7 +557,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 521876026}
-  - 65: {fileID: 521876027}
   m_Layer: 0
   m_Name: EnemySpawnSocket (15)
   m_TagString: Socket
@@ -680,18 +576,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 12
---- !u!65 &521876027
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 521876025}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &528848305
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,7 +584,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 528848306}
-  - 65: {fileID: 528848307}
   m_Layer: 0
   m_Name: EnemySpawnSocket (33)
   m_TagString: Socket
@@ -720,18 +603,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 33
---- !u!65 &528848307
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 528848305}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &548103674
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,7 +611,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 548103675}
-  - 65: {fileID: 548103676}
   m_Layer: 0
   m_Name: EnemySpawnSocket (19)
   m_TagString: Socket
@@ -760,18 +630,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 18
---- !u!65 &548103676
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 548103674}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &639334859
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,7 +638,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 639334860}
-  - 65: {fileID: 639334861}
   m_Layer: 0
   m_Name: EnemySpawnSocket (30)
   m_TagString: Socket
@@ -800,18 +657,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 29
---- !u!65 &639334861
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 639334859}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &728186023
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,7 +665,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 728186024}
-  - 65: {fileID: 728186025}
   m_Layer: 0
   m_Name: EnemySpawnSocket (25)
   m_TagString: Socket
@@ -840,18 +684,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 24
---- !u!65 &728186025
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 728186023}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &744514844
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,7 +692,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 744514845}
-  - 65: {fileID: 744514846}
   m_Layer: 0
   m_Name: EnemySpawnSocket (7)
   m_TagString: Socket
@@ -880,18 +711,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 6
---- !u!65 &744514846
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 744514844}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &756701905
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,7 +719,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 756701906}
-  - 65: {fileID: 756701907}
   m_Layer: 0
   m_Name: EnemySpawnSocket (8)
   m_TagString: Socket
@@ -920,18 +738,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 7
---- !u!65 &756701907
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 756701905}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &869654613
 GameObject:
   m_ObjectHideFlags: 0
@@ -940,7 +746,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 869654614}
-  - 65: {fileID: 869654615}
   m_Layer: 0
   m_Name: EnemySpawnSocket (17)
   m_TagString: Socket
@@ -960,18 +765,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 13
---- !u!65 &869654615
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 869654613}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &877455233
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,7 +773,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 877455234}
-  - 65: {fileID: 877455235}
   m_Layer: 0
   m_Name: EnemySpawnSocket (23)
   m_TagString: Socket
@@ -1000,18 +792,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 22
---- !u!65 &877455235
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 877455233}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &878394754
 GameObject:
   m_ObjectHideFlags: 0
@@ -1048,7 +828,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 955594170}
-  - 65: {fileID: 955594171}
   m_Layer: 0
   m_Name: EnemySpawnSocket (29)
   m_TagString: Socket
@@ -1068,18 +847,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 28
---- !u!65 &955594171
-BoxCollider:
+--- !u!1 &967540627
+GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 955594169}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 967540628}
+  m_Layer: 0
+  m_Name: EnemySpawnSocket (37)
+  m_TagString: Socket
+  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &967540628
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 967540627}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
+  m_LocalPosition: {x: 2.1, y: 24.31, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1212091565}
+  m_RootOrder: 37
 --- !u!1 &976129702
 GameObject:
   m_ObjectHideFlags: 0
@@ -1088,7 +882,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 976129703}
-  - 65: {fileID: 976129704}
   m_Layer: 0
   m_Name: EnemySpawnSocket (26)
   m_TagString: Socket
@@ -1108,18 +901,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 25
---- !u!65 &976129704
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 976129702}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1039429769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,7 +909,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1039429770}
-  - 65: {fileID: 1039429771}
   m_Layer: 0
   m_Name: EnemySpawnSocket (4)
   m_TagString: Socket
@@ -1148,18 +928,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 32
---- !u!65 &1039429771
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1039429769}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1069426138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1304,7 +1072,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1084980779}
-  - 65: {fileID: 1084980780}
   m_Layer: 0
   m_Name: EnemySpawnSocket (24)
   m_TagString: Socket
@@ -1324,18 +1091,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 23
---- !u!65 &1084980780
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1084980778}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1092302482
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,7 +1141,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1191604909}
-  - 65: {fileID: 1191604910}
   m_Layer: 0
   m_Name: EnemySpawnSocket (27)
   m_TagString: Socket
@@ -1406,18 +1160,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 26
---- !u!65 &1191604910
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1191604908}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1212091564
 GameObject:
   m_ObjectHideFlags: 0
@@ -1480,6 +1222,9 @@ Transform:
   - {fileID: 528848306}
   - {fileID: 161483493}
   - {fileID: 1678287982}
+  - {fileID: 1292140710}
+  - {fileID: 967540628}
+  - {fileID: 70726347}
   m_Father: {fileID: 1092302484}
   m_RootOrder: 0
 --- !u!114 &1212091566
@@ -1502,7 +1247,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1255743982}
-  - 65: {fileID: 1255743983}
   m_Layer: 0
   m_Name: EnemySpawnSocket (2)
   m_TagString: Socket
@@ -1522,18 +1266,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 2
---- !u!65 &1255743983
-BoxCollider:
+--- !u!1 &1292140709
+GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1255743981}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1292140710}
+  m_Layer: 0
+  m_Name: EnemySpawnSocket (36)
+  m_TagString: Socket
+  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1292140710
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1292140709}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
+  m_LocalPosition: {x: -3, y: 24.31, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1212091565}
+  m_RootOrder: 36
 --- !u!1001 &1318312114
 Prefab:
   m_ObjectHideFlags: 0
@@ -1588,7 +1347,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1348958226}
-  - 65: {fileID: 1348958227}
   m_Layer: 0
   m_Name: EnemySpawnSocket (28)
   m_TagString: Socket
@@ -1608,18 +1366,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 27
---- !u!65 &1348958227
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1348958225}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1390720297
 GameObject:
   m_ObjectHideFlags: 0
@@ -1674,7 +1420,7 @@ Transform:
   m_GameObject: {fileID: 1554276320}
   m_LocalRotation: {x: 0.49999997, y: -0.49999988, z: -0.50000006, w: 0.50000024}
   m_LocalPosition: {x: -3, y: 3.5, z: 120}
-  m_LocalScale: {x: 200, y: 3, z: 200}
+  m_LocalScale: {x: 200, y: 3, z: 247.50116}
   m_Children: []
   m_Father: {fileID: 312368475}
   m_RootOrder: 0
@@ -1731,7 +1477,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1622407486}
-  - 65: {fileID: 1622407487}
   m_Layer: 0
   m_Name: EnemySpawnSocket (13)
   m_TagString: Socket
@@ -1751,18 +1496,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 16
---- !u!65 &1622407487
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1622407485}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1678287981
 GameObject:
   m_ObjectHideFlags: 0
@@ -1771,7 +1504,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1678287982}
-  - 65: {fileID: 1678287983}
   m_Layer: 0
   m_Name: EnemySpawnSocket (35)
   m_TagString: Socket
@@ -1786,23 +1518,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1678287981}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: -3, y: 24.31, z: 0}
+  m_LocalPosition: {x: -0.99, y: 24.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 35
---- !u!65 &1678287983
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1678287981}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1682863350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1921,7 +1641,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1707012292}
-  - 65: {fileID: 1707012293}
   m_Layer: 0
   m_Name: EnemySpawnSocket (3)
   m_TagString: Socket
@@ -1941,18 +1660,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 3
---- !u!65 &1707012293
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1707012291}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1758043624
 GameObject:
   m_ObjectHideFlags: 0
@@ -1961,7 +1668,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1758043625}
-  - 65: {fileID: 1758043626}
   m_Layer: 0
   m_Name: EnemySpawnSocket (21)
   m_TagString: Socket
@@ -1981,18 +1687,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 20
---- !u!65 &1758043626
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1758043624}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1822411936
 GameObject:
   m_ObjectHideFlags: 0
@@ -2001,7 +1695,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1822411937}
-  - 65: {fileID: 1822411938}
   m_Layer: 0
   m_Name: EnemySpawnSocket (9)
   m_TagString: Socket
@@ -2021,18 +1714,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 8
---- !u!65 &1822411938
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1822411936}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1825392789
 GameObject:
   m_ObjectHideFlags: 0
@@ -2041,7 +1722,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1825392790}
-  - 65: {fileID: 1825392791}
   m_Layer: 0
   m_Name: EnemySpawnSocket (1)
   m_TagString: Socket
@@ -2061,18 +1741,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 1
---- !u!65 &1825392791
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1825392789}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1875227874
 GameObject:
   m_ObjectHideFlags: 0
@@ -2081,7 +1749,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1875227875}
-  - 65: {fileID: 1875227876}
   m_Layer: 0
   m_Name: EnemySpawnSocket (10)
   m_TagString: Socket
@@ -2101,18 +1768,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 15
---- !u!65 &1875227876
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1875227874}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1929966837
 GameObject:
   m_ObjectHideFlags: 0
@@ -2121,7 +1776,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1929966838}
-  - 65: {fileID: 1929966839}
   m_Layer: 0
   m_Name: EnemySpawnSocket (20)
   m_TagString: Socket
@@ -2141,18 +1795,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 19
---- !u!65 &1929966839
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1929966837}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1957289539
 GameObject:
   m_ObjectHideFlags: 0
@@ -2161,7 +1803,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1957289540}
-  - 65: {fileID: 1957289541}
   m_Layer: 0
   m_Name: EnemySpawnSocket (14)
   m_TagString: Socket
@@ -2181,18 +1822,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 11
---- !u!65 &1957289541
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1957289539}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2050025875
 GameObject:
   m_ObjectHideFlags: 0
@@ -2287,7 +1916,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2061046801}
-  - 65: {fileID: 2061046802}
   m_Layer: 0
   m_Name: EnemySpawnSocket (22)
   m_TagString: Socket
@@ -2307,15 +1935,3 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1212091565}
   m_RootOrder: 21
---- !u!65 &2061046802
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2061046800}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
