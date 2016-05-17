@@ -2,7 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class BossController : MonoBehaviour {
+public class BossController : MonoBehaviour
+{
 
     public StatsController stats;
     private GameManager gameManager;
@@ -14,32 +15,35 @@ public class BossController : MonoBehaviour {
     float phaseLerpIncreasing = 1;
 
     private float phaseLerp = 0;
-    private float phaseLerpInc = 0.1f;
+    private float phaseLerpInc = 0.5f;
     private float currPhaseTime = 0;
-    float phaseTime = 5;
+    public float phaseTime = 5;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         stats = GetComponent<StatsController>();
         stats.health.onMinimum = OnDeath;
 
         startPoint = transform.position;
-        endPoint = new Vector3(0, 0, -27);
+        endPoint = new Vector3(0, 0, 12);
 
         gameManager = GameObject.FindGameObjectWithTag("GameManager")
             .GetComponent<GameManager>();
+
+        StartVulnerablePhase();
     }
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+    void Update()
     {
-	    if (inPhase)
+        if (inPhase)
         {
             if (phaseLerpIncreasing == 1)
             {
                 transform.position = Vector3.Lerp(startPoint, endPoint, phaseLerp);
                 phaseLerp += phaseLerpInc * Time.deltaTime;
-                if (phaseLerp == 1)
+                if (phaseLerp >= 1)
                 {
                     phaseLerp = 0;
                     phaseLerpIncreasing = 0;
@@ -50,25 +54,24 @@ public class BossController : MonoBehaviour {
                 transform.position = Vector3.Lerp(endPoint, startPoint, phaseLerp);
                 phaseLerp += phaseLerpInc * Time.deltaTime;
 
-                if (phaseLerp == 1)
+                if (phaseLerp >= 1)
                 {
                     phaseLerp = 0;
                     phaseLerpIncreasing = 0;
-                    inPhase = false;
+                    EndVulnerablePhase();
                 }
             }
             else if (phaseLerpIncreasing == 0)
             {
-                currPhaseTime += Time.deltaTime;
                 if (currPhaseTime > phaseTime)
                 {
                     currPhaseTime = 0;
                     phaseLerpIncreasing = -1;
                 }
             }
-
+            currPhaseTime += Time.deltaTime;
         }
-	}
+    }
 
     public void StartVulnerablePhase()
     {
@@ -76,7 +79,7 @@ public class BossController : MonoBehaviour {
         List<SphereCollider> colliderList = new List<SphereCollider>();
         GetComponents<SphereCollider>(colliderList);
 
-        foreach(SphereCollider sc in colliderList)
+        foreach (SphereCollider sc in colliderList)
         {
             sc.enabled = true;
         }
@@ -87,6 +90,7 @@ public class BossController : MonoBehaviour {
         inPhase = false;
         List<SphereCollider> colliderList = new List<SphereCollider>();
         GetComponents<SphereCollider>(colliderList);
+
         foreach (SphereCollider sc in colliderList)
         {
             sc.enabled = false;

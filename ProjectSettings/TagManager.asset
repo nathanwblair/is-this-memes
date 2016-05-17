@@ -8,6 +8,8 @@ TagManager:
   - Socket
   - Boss
   - GameManager
+  - PauseCanvas
+  - UICanvas
   layers:
   - Default
   - TransparentFX

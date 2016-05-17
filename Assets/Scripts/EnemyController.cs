@@ -5,7 +5,8 @@ public class EnemyController : MonoBehaviour {
     public StatsController stats;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
         stats = GetComponent<StatsController>();
         stats.speed.val = 10;
         stats.attack.val = 1;
@@ -13,7 +14,8 @@ public class EnemyController : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 	    
 	}
 

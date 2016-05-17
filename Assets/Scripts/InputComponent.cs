@@ -6,6 +6,7 @@ public class InputComponent : MonoBehaviour
 {
     //game objects
     private Camera camera;
+    private GameManager gameManager;
     private PlayerController player;
 
     //slash variables
@@ -60,6 +61,9 @@ public class InputComponent : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player")
             .GetComponent<PlayerController>();
         camera = Camera.main;
+
+        gameManager = GameObject.FindGameObjectWithTag("GameManager")
+            .GetComponent<GameManager>();
     }
 
     // Update is called once per frame
@@ -77,16 +81,31 @@ public class InputComponent : MonoBehaviour
             {
                 touchStart = Input.GetTouch(0).position;
                 //do the slash
-                Slash e = new Slash(
-                    new Vector2(touchStart.x, touchStart.y),
-                    new Vector2(touchStart.x, touchStart.y),
-                    Instantiate(emitterPrefab));
-                slashList.Add(e);
 
-                slashTime = 0;
+                if (touchStart.x < 80 && touchStart.y < 80)
+                {
+                    if (gameManager.paused)
+                    {
+                        gameManager.OnResume();
+                    }
+                    else
+                    {
+                        gameManager.OnPause();
+                    }
+                }
+
+                if (!gameManager.paused)
+                {
+                    Slash e = new Slash(
+                        new Vector2(touchStart.x, touchStart.y),
+                        new Vector2(touchStart.x, touchStart.y),
+                        Instantiate(emitterPrefab));
+                    slashList.Add(e);
+                    slashTime = 0;
+                }
             }
             //slash in progress
-            if (slashList.Count > 0 && Input.touchCount > 0)
+            if (slashList.Count > 0 && Input.touchCount > 0 && !gameManager.paused)
             {
                 if (Input.GetTouch(0).phase == TouchPhase.Moved
                    && !slashList[slashList.Count - 1].dead)
@@ -136,7 +155,10 @@ public class InputComponent : MonoBehaviour
                 }
             }
         }
-        UpdateSlash();
+        if (!gameManager.paused)
+        {
+            UpdateSlash();
+        }
     }
 
     void UpdateSlash()
