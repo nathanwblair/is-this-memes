@@ -105,8 +105,11 @@ public class InputComponent : MonoBehaviour
                     {
                         if (rayHit.collider.tag == "Enemy")
                         {
-                            Debug.Log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
                             rayHit.collider.GetComponent<EnemyController>().OnHit(player);
+                        }
+                        else if (rayHit.collider.tag == "Boss")
+                        {
+                            rayHit.collider.GetComponent<BossController>().OnHit(player);
                         }
                     }
 

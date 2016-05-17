@@ -25,7 +25,6 @@ public class EnemyController : MonoBehaviour {
 
     public void OnHit(PlayerController player)
     {
-
         stats.health.Decrease(player.stats.attack.val);
     }
 
@@ -33,6 +32,4 @@ public class EnemyController : MonoBehaviour {
     {
         gameObject.SetActive(false);
     }
-
-
 }
