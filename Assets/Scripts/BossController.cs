@@ -16,7 +16,7 @@ public class BossController : MonoBehaviour {
     private float phaseLerp = 0;
     private float phaseLerpInc = 0.1f;
     private float currPhaseTime = 0;
-    float phaseTime = 5;
+    public float phaseTime = 5;
 
 	// Use this for initialization
 	void Start () {

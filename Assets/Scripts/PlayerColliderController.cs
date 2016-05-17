@@ -30,10 +30,8 @@ public class PlayerColliderController : MonoBehaviour {
 
     void OnCollisionEnter(Collision collider)
     {
-        Debug.Log("Collision!");
         if (collider.gameObject.tag == "Enemy")
-        {
-            Debug.Log("Enemy Collision!");
+        { 
             OnHitEnemy(collider.gameObject.GetComponent<EnemyController>());
         }
     }

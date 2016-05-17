@@ -8,6 +8,7 @@ TagManager:
   - Socket
   - Boss
   - GameManager
+  - EnemyCollection
   layers:
   - Default
   - TransparentFX
