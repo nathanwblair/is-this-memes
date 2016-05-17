@@ -65,7 +65,8 @@ public class SpawnerController : MonoBehaviour
     {
         var spawnPoint = sockets.RandomSpawnPoint();
 
-        GameObject.Instantiate(spawnPrefab, spawnPoint, spawnPrefab.transform.rotation);
+        var spawn = (GameObject)GameObject.Instantiate(spawnPrefab, spawnPoint, spawnPrefab.transform.rotation);
+        spawn.SetActive(true);
     }
 	
 	// Update is called once per frame

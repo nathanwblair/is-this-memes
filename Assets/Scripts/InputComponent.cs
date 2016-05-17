@@ -5,7 +5,9 @@ using System.Collections.Generic;
 public class InputComponent : MonoBehaviour
 {
     //game objects
-    public Camera camera;
+    private Camera camera;
+
+    private PlayerController player;
     
     //slash variables
     public GameObject emitterPrefab;
@@ -58,6 +60,10 @@ public class InputComponent : MonoBehaviour
         touchStart = new Vector2();
         touchEnd = new Vector2();
         slashList = new List<Slash>();
+
+        player = GameObject.FindGameObjectWithTag("Player")
+            .GetComponent<PlayerController>();
+        camera = Camera.main;
     }
 
     // Update is called once per frame
@@ -116,7 +122,7 @@ public class InputComponent : MonoBehaviour
                 if (rayHit.collider.tag == "Enemy")
                 {
                     //todo: collision, pass direction to check against 'weak' spot
-                    //rayHit.collider.GetComponent<EnemyController>.onHit();
+                    rayHit.collider.GetComponent<EnemyController>().OnHit(player);
                 }
 
                 //store direction
