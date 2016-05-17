@@ -3,6 +3,7 @@ using System.Collections;
 
 public class EnemyController : MonoBehaviour {
     public StatsController stats;
+    public GameObject bloodSplatter;
 
 	// Use this for initialization
 	void Start ()
@@ -22,7 +23,10 @@ public class EnemyController : MonoBehaviour {
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Player")
-            gameObject.SetActive(false);
+        {
+            collision.gameObject.GetComponent<PlayerController>().OnHit();
+            OnDeath(stats.health);
+        }
     }
 
     public void OnHit(PlayerController player)
@@ -32,6 +36,7 @@ public class EnemyController : MonoBehaviour {
 
     public void OnDeath(Stat parent)
     {
+        Instantiate(bloodSplatter, this.transform.position, Quaternion.identity);
         gameObject.SetActive(false);
     }
 }

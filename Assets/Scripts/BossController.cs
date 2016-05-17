@@ -11,13 +11,16 @@ public class BossController : MonoBehaviour
     public Vector3 startPoint;
     public Vector3 endPoint;
 
-    bool inPhase = false;
+    public bool inPhase = false;
     float phaseLerpIncreasing = 1;
 
     private float phaseLerp = 0;
     private float phaseLerpInc = 0.5f;
     private float currPhaseTime = 0;
     public float phaseTime = 5;
+
+    private float hitCooldown = 0;
+    private float absoluteHitCooldown = 0.016f;
 
     // Use this for initialization
     void Start()
@@ -30,10 +33,7 @@ public class BossController : MonoBehaviour
 
         gameManager = GameObject.FindGameObjectWithTag("GameManager")
             .GetComponent<GameManager>();
-
-        StartVulnerablePhase();
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -57,20 +57,21 @@ public class BossController : MonoBehaviour
                 if (phaseLerp >= 1)
                 {
                     phaseLerp = 0;
-                    phaseLerpIncreasing = 0;
+                    phaseLerpIncreasing = 1;
                     EndVulnerablePhase();
                 }
             }
             else if (phaseLerpIncreasing == 0)
             {
+                currPhaseTime += Time.deltaTime;
                 if (currPhaseTime > phaseTime)
                 {
                     currPhaseTime = 0;
                     phaseLerpIncreasing = -1;
                 }
             }
-            currPhaseTime += Time.deltaTime;
         }
+        hitCooldown += Time.deltaTime;
     }
 
     public void StartVulnerablePhase()
@@ -99,7 +100,10 @@ public class BossController : MonoBehaviour
 
     public void OnHit(PlayerController player)
     {
-        stats.health.Decrease(player.stats.attack.val);
+        if (hitCooldown <= 0)
+        {
+            stats.health.Decrease(player.stats.attack.val);
+        }
     }
 
     public void OnDeath(Stat parent)

@@ -50,12 +50,16 @@ public class SeekBehaviour : MonoBehaviour
 
         foreach (var target in targets)
         {
+            Debug.Log(target);
             var distance = Vector3.Distance(target, transform.position);
             var globalWeight = dropoff(distance) * weight;
 
-            var direction = (target - transform.position).normalized;
+            var direction = (target - transform.position);
+            direction.Normalize();
+            Debug.Log(direction);
 
-            var velocity = globalWeight * direction * stats.speed.val;
+            var velocity =  direction * stats.speed.val * globalWeight;
+
 
             rb.MovePosition(rb.position + velocity * Time.deltaTime);
         }

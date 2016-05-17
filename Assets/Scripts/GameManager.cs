@@ -41,8 +41,13 @@ public class GameManager : MonoBehaviour
         paused = false;
     }
 
+    public void OnLose()
+    {
+        //todo: lose
+    }
+
     public void OnWin()
     {
-
+        //todo: win
     }
 }

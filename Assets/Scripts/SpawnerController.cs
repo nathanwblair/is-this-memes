@@ -42,7 +42,7 @@ public class SpawnerController : MonoBehaviour
 {
     Timer spawnTimer = new Timer();
 
-    private float bossFightTime;
+    public float waveStartDelay;
     float bossDelayScale;
 
     public List<int> enemyWaves = new List<int>();
@@ -63,6 +63,8 @@ public class SpawnerController : MonoBehaviour
 
     private EnemyCollectionController enemies;
 
+    private BossController boss;
+
     void OnEnable()
     {
         _enemyWaves = new Queue<int>(enemyWaves);
@@ -75,8 +77,8 @@ public class SpawnerController : MonoBehaviour
         enemies = GameObject.Find("Enemies").GetComponent<EnemyCollectionController>();
         Reset();
 
-        bossFightTime = GameObject.FindGameObjectWithTag("Boss").GetComponent<BossController>().phaseTime;
-        bossDelayScale = bossFightTime / spawnDelayRange.x;
+        boss = GameObject.FindGameObjectWithTag("Boss").GetComponent<BossController>();
+        bossDelayScale = waveStartDelay / spawnDelayRange.x;
     }
 
     void Reset(float pause=1.0f)
@@ -98,6 +100,8 @@ public class SpawnerController : MonoBehaviour
         Reset(bossDelayScale);
         if (_enemyWaves.Count > 1)
            _enemyWaves.Dequeue();
+
+        boss.StartVulnerablePhase();
     }
 
     void TryNewWave()
@@ -142,12 +146,15 @@ public class SpawnerController : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-        if (spawnTimer.GetElapsedTime() > currentSpawnDelay)
+        if (!boss.inPhase)
         {
-            Spawn();
-            Reset();
-        }
+            if (spawnTimer.GetElapsedTime() > currentSpawnDelay)
+            {
+                Spawn();
+                Reset();
+            }
 
-        TryNewWave();
+            TryNewWave();
+        }
 	}
 }

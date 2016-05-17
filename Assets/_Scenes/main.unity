@@ -85,33 +85,75 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &70726346
+--- !u!1001 &59914264
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 430048, guid: e03cb94822f4bd74c80bc90fae6017a9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -33.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 430048, guid: e03cb94822f4bd74c80bc90fae6017a9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 430048, guid: e03cb94822f4bd74c80bc90fae6017a9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 77.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 430048, guid: e03cb94822f4bd74c80bc90fae6017a9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430048, guid: e03cb94822f4bd74c80bc90fae6017a9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430048, guid: e03cb94822f4bd74c80bc90fae6017a9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430048, guid: e03cb94822f4bd74c80bc90fae6017a9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 430048, guid: e03cb94822f4bd74c80bc90fae6017a9, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e03cb94822f4bd74c80bc90fae6017a9, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &101360522
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 70726347}
+  - 4: {fileID: 101360523}
   m_Layer: 0
-  m_Name: EnemySpawnSocket (38)
+  m_Name: EnemySpawnSocket (15)
   m_TagString: Socket
   m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &70726347
+--- !u!4 &101360523
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 70726346}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: 5.04, y: 24.31, z: 0}
+  m_GameObject: {fileID: 101360522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 53.5, y: -2.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 38
+  m_RootOrder: 11
 --- !u!1001 &104065274
 Prefab:
   m_ObjectHideFlags: 0
@@ -191,98 +233,160 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 158606, guid: f20b498993a7f94408868ca66c2f35cc, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 140954, guid: f20b498993a7f94408868ca66c2f35cc, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11434424, guid: f20b498993a7f94408868ca66c2f35cc, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163382, guid: f20b498993a7f94408868ca66c2f35cc, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11415170, guid: f20b498993a7f94408868ca66c2f35cc, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f20b498993a7f94408868ca66c2f35cc, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &149277409
+--- !u!1 &153745184
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 149277410}
+  - 4: {fileID: 153745185}
   m_Layer: 0
-  m_Name: EnemySpawnSocket (6)
+  m_Name: EnemySpawnSocket (7)
   m_TagString: Socket
   m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &149277410
+--- !u!4 &153745185
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 149277409}
+  m_GameObject: {fileID: 153745184}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: 10.31, z: 0}
+  m_LocalPosition: {x: -25, y: -10.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 5
---- !u!1 &161483492
+  m_RootOrder: 19
+--- !u!1 &154262925
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 161483493}
+  - 4: {fileID: 154262926}
   m_Layer: 0
-  m_Name: EnemySpawnSocket (34)
+  m_Name: EnemySpawnSocket (1)
   m_TagString: Socket
   m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &161483493
+--- !u!4 &154262926
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 161483492}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: -8, y: 24.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 34
---- !u!1 &209303485
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 209303486}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (12)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &209303486
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 209303485}
+  m_GameObject: {fileID: 154262925}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 10.31, z: 0}
+  m_LocalPosition: {x: 61, y: 21.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 10
---- !u!1 &240963958
+  m_RootOrder: 25
+--- !u!1 &162779583 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 160836, guid: f20b498993a7f94408868ca66c2f35cc, type: 2}
+  m_PrefabInternal: {fileID: 104065274}
+--- !u!114 &162779588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 162779583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4151ab15db3d2de4c87684ec597e2ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &182582990
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 240963959}
+  - 4: {fileID: 182582991}
+  m_Layer: 0
+  m_Name: EnemySpawnSocket (2)
+  m_TagString: Socket
+  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &182582991
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 182582990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 33, y: 21.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1212091565}
+  m_RootOrder: 24
+--- !u!1 &191638233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 191638234}
+  m_Layer: 0
+  m_Name: EnemySpawnSocket (26)
+  m_TagString: Socket
+  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &191638234
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 191638233}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.5, y: -8.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1212091565}
+  m_RootOrder: 0
+--- !u!1 &264354852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 264354853}
   m_Layer: 0
   m_Name: EnemySpawnSocket (0)
   m_TagString: Socket
@@ -290,45 +394,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &240963959
+--- !u!4 &264354853
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 240963958}
+  m_GameObject: {fileID: 264354852}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6, y: 5.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 0
---- !u!1 &280115503
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 280115504}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (11)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &280115504
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 280115503}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: 5.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 9
+  m_RootOrder: 26
 --- !u!1001 &285327878
 Prefab:
   m_ObjectHideFlags: 0
@@ -443,41 +520,14 @@ Transform:
   - {fileID: 1554276321}
   m_Father: {fileID: 878394755}
   m_RootOrder: 0
---- !u!1 &352341703
+--- !u!1 &510542707
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 352341704}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (31)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &352341704
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 352341703}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: 7, y: 19.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 30
---- !u!1 &358033072
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 358033073}
+  - 4: {fileID: 510542708}
   m_Layer: 0
   m_Name: EnemySpawnSocket (18)
   m_TagString: Socket
@@ -485,408 +535,53 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &358033073
+--- !u!4 &510542708
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 358033072}
+  m_GameObject: {fileID: 510542707}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 13.31, z: 0}
+  m_LocalPosition: {x: 26.5, y: 7.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 14
---- !u!1 &415576562
+  m_RootOrder: 8
+--- !u!1 &714496776
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 415576563}
+  - 4: {fileID: 714496777}
   m_Layer: 0
-  m_Name: EnemySpawnSocket (16)
+  m_Name: EnemySpawnSocket (24)
   m_TagString: Socket
   m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &415576563
+--- !u!4 &714496777
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 415576562}
+  m_GameObject: {fileID: 714496776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: 10.31, z: 0}
+  m_LocalPosition: {x: -21.5, y: -8.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 17
---- !u!1 &445509009
+  m_RootOrder: 2
+--- !u!1 &778213225
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 445509010}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (5)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &445509010
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 445509009}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6, y: 10.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 4
---- !u!1 &486445206
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 486445207}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (32)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &486445207
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 486445206}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: -3, y: 19.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 31
---- !u!1 &494424534
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 494424539}
-  - 33: {fileID: 494424538}
-  - 65: {fileID: 494424537}
-  - 23: {fileID: 494424536}
-  - 114: {fileID: 494424535}
-  - 114: {fileID: 494424540}
-  - 114: {fileID: 494424541}
-  - 54: {fileID: 494424542}
-  m_Layer: 0
-  m_Name: Enemy
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &494424535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 494424534}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b98e40e48fb39b649b15541393e7e100, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stats: {fileID: 494424540}
---- !u!23 &494424536
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 494424534}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!65 &494424537
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 494424534}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4.5, y: 4.5, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &494424538
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 494424534}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &494424539
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 494424534}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 65.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
---- !u!114 &494424540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 494424534}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cf45e932f00693429e2c0afeff49109, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attack:
-    val: 10
-    range: {x: 0, y: 10}
-  health:
-    val: 1
-    range: {x: 0, y: 1}
-  speed:
-    val: 20
-    range: {x: 0, y: 100}
---- !u!114 &494424541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 494424534}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad5e822765292c4fb77ac24de463d35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetQuery:
-  - Player
---- !u!54 &494424542
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 494424534}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!1 &521876025
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 521876026}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (15)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &521876026
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 521876025}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 12.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 12
---- !u!1 &528848305
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 528848306}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (33)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &528848306
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 528848305}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: -5, y: 21.61, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 33
---- !u!1 &548103674
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 548103675}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (19)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &548103675
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 548103674}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: 5, y: 19.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 18
---- !u!1 &639334859
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 639334860}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (30)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &639334860
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 639334859}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: 11, y: 24.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 29
---- !u!1 &728186023
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 728186024}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (25)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &728186024
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 728186023}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: 0, y: 17.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 24
---- !u!1 &744514844
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 744514845}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (7)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &744514845
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 744514844}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8, y: 5.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 6
---- !u!1 &756701905
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 756701906}
+  - 4: {fileID: 778213226}
   m_Layer: 0
   m_Name: EnemySpawnSocket (8)
   m_TagString: Socket
@@ -894,72 +589,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &756701906
+--- !u!4 &778213226
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 756701905}
+  m_GameObject: {fileID: 778213225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6, y: 8.01, z: 0}
+  m_LocalPosition: {x: -25, y: -10.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 7
---- !u!1 &869654613
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 869654614}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (17)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &869654614
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 869654613}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 15.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 13
---- !u!1 &877455233
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 877455234}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (23)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &877455234
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 877455233}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: 2, y: 14.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 22
+  m_RootOrder: 18
 --- !u!1 &878394754
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,95 +629,134 @@ Transform:
   - {fileID: 312368475}
   m_Father: {fileID: 0}
   m_RootOrder: 5
---- !u!1 &955594169
+--- !u!1 &935613314
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 955594170}
+  - 4: {fileID: 935613315}
   m_Layer: 0
-  m_Name: EnemySpawnSocket (29)
+  m_Name: EnemySpawnSocket (21)
   m_TagString: Socket
   m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &955594170
+--- !u!4 &935613315
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 955594169}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: 9, y: 21.61, z: 0}
+  m_GameObject: {fileID: 935613314}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24.5, y: 23.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 28
---- !u!1 &967540627
+  m_RootOrder: 5
+--- !u!1 &957052002
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 967540628}
+  - 4: {fileID: 957052003}
   m_Layer: 0
-  m_Name: EnemySpawnSocket (37)
+  m_Name: EnemySpawnSocket (6)
   m_TagString: Socket
   m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &967540628
+--- !u!4 &957052003
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 967540627}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: 2.1, y: 24.31, z: 0}
+  m_GameObject: {fileID: 957052002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -42, y: -10.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 37
---- !u!1 &976129702
+  m_RootOrder: 20
+--- !u!1 &958009681
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 976129703}
+  - 4: {fileID: 958009683}
+  - 114: {fileID: 958009682}
   m_Layer: 0
-  m_Name: EnemySpawnSocket (26)
+  m_Name: Enemies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &958009682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 958009681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3160b28c8e120d4d929d9edc131fbde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &958009683
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 958009681}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.38, z: 79}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+--- !u!1 &971058789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 971058790}
+  m_Layer: 0
+  m_Name: EnemySpawnSocket (3)
   m_TagString: Socket
   m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &976129703
+--- !u!4 &971058790
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 976129702}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: 2, y: 19.31, z: 0}
+  m_GameObject: {fileID: 971058789}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: 21.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 25
---- !u!1 &1039429769
+  m_RootOrder: 23
+--- !u!1 &1002669537
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1039429770}
+  - 4: {fileID: 1002669538}
   m_Layer: 0
   m_Name: EnemySpawnSocket (4)
   m_TagString: Socket
@@ -1084,18 +764,72 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1039429770
+--- !u!4 &1002669538
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1039429769}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: -1, y: 21.61, z: 0}
+  m_GameObject: {fileID: 1002669537}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21, y: 21.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 32
+  m_RootOrder: 22
+--- !u!1 &1008335521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1008335522}
+  m_Layer: 0
+  m_Name: EnemySpawnSocket (5)
+  m_TagString: Socket
+  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1008335522
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1008335521}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -42, y: 21.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1212091565}
+  m_RootOrder: 21
+--- !u!1 &1066888011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1066888012}
+  m_Layer: 0
+  m_Name: EnemySpawnSocket (10)
+  m_TagString: Socket
+  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1066888012
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1066888011}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.5, y: -34.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1212091565}
+  m_RootOrder: 16
 --- !u!1 &1069426138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,7 +921,8 @@ MonoBehaviour:
   stats: {fileID: 0}
   startPoint: {x: 0, y: 0, z: 0}
   endPoint: {x: 0, y: 0, z: 0}
-  phaseTime: 5
+  inPhase: 0
+  phaseTime: 2
 --- !u!114 &1069426144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1203,11 +938,38 @@ MonoBehaviour:
     val: 10
     range: {x: 0, y: 10}
   health:
-    val: 1
+    val: 200
     range: {x: 0, y: 1}
   speed:
     val: 20
     range: {x: 0, y: 100}
+--- !u!1 &1071334811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1071334812}
+  m_Layer: 0
+  m_Name: EnemySpawnSocket (25)
+  m_TagString: Socket
+  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1071334812
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1071334811}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.5, y: -8.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1212091565}
+  m_RootOrder: 1
 --- !u!1 &1071415024
 GameObject:
   m_ObjectHideFlags: 0
@@ -1269,33 +1031,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
---- !u!1 &1084980778
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1084980779}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (24)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1084980779
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1084980778}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: 4, y: 17.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 23
 --- !u!1 &1092302482
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,8 +1058,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 265e8e778fa52724ebbc06b102c97369, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnDelayRange: {x: 1, y: 3}
-  spawnPrefab: {fileID: 494424534}
+  waveStartDelay: 1
+  enemyWaves: 0a0000000a0000000a0000000a0000000f0000000f00000014000000140000001400000014000000
+  spawnDelayRange: {x: 0.2, y: 1.3}
+  spawnPrefab: {fileID: 1662652865}
+  delayDropoff: 0.7
 --- !u!4 &1092302484
 Transform:
   m_ObjectHideFlags: 0
@@ -1338,33 +1076,33 @@ Transform:
   - {fileID: 1212091565}
   m_Father: {fileID: 0}
   m_RootOrder: 3
---- !u!1 &1191604908
+--- !u!1 &1126302448
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1191604909}
+  - 4: {fileID: 1126302449}
   m_Layer: 0
-  m_Name: EnemySpawnSocket (27)
+  m_Name: EnemySpawnSocket (12)
   m_TagString: Socket
   m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1191604909
+--- !u!4 &1126302449
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1191604908}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: 7, y: 24.31, z: 0}
+  m_GameObject: {fileID: 1126302448}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.5, y: -2.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 26
+  m_RootOrder: 14
 --- !u!1 &1212091564
 GameObject:
   m_ObjectHideFlags: 0
@@ -1388,48 +1126,36 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1212091564}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -21.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 240963959}
-  - {fileID: 1825392790}
-  - {fileID: 1255743982}
-  - {fileID: 1707012292}
-  - {fileID: 445509010}
-  - {fileID: 149277410}
-  - {fileID: 744514845}
-  - {fileID: 756701906}
-  - {fileID: 1822411937}
-  - {fileID: 280115504}
-  - {fileID: 209303486}
-  - {fileID: 1957289540}
-  - {fileID: 521876026}
-  - {fileID: 869654614}
-  - {fileID: 358033073}
-  - {fileID: 1875227875}
-  - {fileID: 1622407486}
-  - {fileID: 415576563}
-  - {fileID: 548103675}
-  - {fileID: 1929966838}
-  - {fileID: 1758043625}
-  - {fileID: 2061046801}
-  - {fileID: 877455234}
-  - {fileID: 1084980779}
-  - {fileID: 728186024}
-  - {fileID: 976129703}
-  - {fileID: 1191604909}
-  - {fileID: 1348958226}
-  - {fileID: 955594170}
-  - {fileID: 639334860}
-  - {fileID: 352341704}
-  - {fileID: 486445207}
-  - {fileID: 1039429770}
-  - {fileID: 528848306}
-  - {fileID: 161483493}
-  - {fileID: 1678287982}
-  - {fileID: 1292140710}
-  - {fileID: 967540628}
-  - {fileID: 70726347}
+  - {fileID: 191638234}
+  - {fileID: 1071334812}
+  - {fileID: 714496777}
+  - {fileID: 1271425268}
+  - {fileID: 1541274579}
+  - {fileID: 935613315}
+  - {fileID: 2027109768}
+  - {fileID: 1294706120}
+  - {fileID: 510542708}
+  - {fileID: 1729436087}
+  - {fileID: 1441535034}
+  - {fileID: 101360523}
+  - {fileID: 2002898036}
+  - {fileID: 1932012655}
+  - {fileID: 1126302449}
+  - {fileID: 2034305903}
+  - {fileID: 1066888012}
+  - {fileID: 1574812919}
+  - {fileID: 778213226}
+  - {fileID: 153745185}
+  - {fileID: 957052003}
+  - {fileID: 1008335522}
+  - {fileID: 1002669538}
+  - {fileID: 971058790}
+  - {fileID: 182582991}
+  - {fileID: 154262926}
+  - {fileID: 264354853}
   m_Father: {fileID: 1092302484}
   m_RootOrder: 0
 --- !u!114 &1212091566
@@ -1444,60 +1170,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sockets: []
---- !u!1 &1255743981
+--- !u!1 &1271425267
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1255743982}
+  - 4: {fileID: 1271425268}
   m_Layer: 0
-  m_Name: EnemySpawnSocket (2)
+  m_Name: EnemySpawnSocket (23)
   m_TagString: Socket
   m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1255743982
+--- !u!4 &1271425268
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1255743981}
+  m_GameObject: {fileID: 1271425267}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8, y: 8.01, z: 0}
+  m_LocalPosition: {x: -21.5, y: 23.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 2
---- !u!1 &1292140709
+  m_RootOrder: 3
+--- !u!1 &1294706119
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1292140710}
+  - 4: {fileID: 1294706120}
   m_Layer: 0
-  m_Name: EnemySpawnSocket (36)
+  m_Name: EnemySpawnSocket (19)
   m_TagString: Socket
   m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1292140710
+--- !u!4 &1294706120
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1292140709}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: -3, y: 24.31, z: 0}
+  m_GameObject: {fileID: 1294706119}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 81.5, y: 23.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 36
+  m_RootOrder: 7
 --- !u!1001 &1318312114
 Prefab:
   m_ObjectHideFlags: 0
@@ -1548,33 +1274,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5564f7e5f0356fb4faacb4861719e32f, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1348958225
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1348958226}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (28)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1348958226
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1348958225}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: 3.96, y: 20.53, z: -2.4100037}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 27
 --- !u!1 &1390720297
 GameObject:
   m_ObjectHideFlags: 0
@@ -1603,6 +1302,60 @@ Transform:
   - {fileID: 1069426139}
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!1 &1441535033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1441535034}
+  m_Layer: 0
+  m_Name: EnemySpawnSocket (16)
+  m_TagString: Socket
+  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1441535034
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1441535033}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 81.5, y: -2.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1212091565}
+  m_RootOrder: 10
+--- !u!1 &1541274578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1541274579}
+  m_Layer: 0
+  m_Name: EnemySpawnSocket (22)
+  m_TagString: Socket
+  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1541274579
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1541274578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5, y: 23.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1212091565}
+  m_RootOrder: 4
 --- !u!1 &1554276320
 GameObject:
   m_ObjectHideFlags: 0
@@ -1629,7 +1382,7 @@ Transform:
   m_GameObject: {fileID: 1554276320}
   m_LocalRotation: {x: 0.49999997, y: -0.49999988, z: -0.50000006, w: 0.50000024}
   m_LocalPosition: {x: -3, y: 3.5, z: 120}
-  m_LocalScale: {x: 200, y: 3, z: 247.50116}
+  m_LocalScale: {x: 200, y: 3, z: 282.7532}
   m_Children: []
   m_Father: {fileID: 312368475}
   m_RootOrder: 0
@@ -1678,64 +1431,41 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1554276320}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1622407485
+--- !u!1 &1574812918
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1622407486}
+  - 4: {fileID: 1574812919}
   m_Layer: 0
-  m_Name: EnemySpawnSocket (13)
+  m_Name: EnemySpawnSocket (9)
   m_TagString: Socket
   m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1622407486
+--- !u!4 &1574812919
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1622407485}
+  m_GameObject: {fileID: 1574812918}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4, y: 10.31, z: 0}
+  m_LocalPosition: {x: -4.5, y: -34.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 16
+  m_RootOrder: 17
 --- !u!4 &1638087120 stripped
 Transform:
   m_PrefabParentObject: {fileID: 409888, guid: 5564f7e5f0356fb4faacb4861719e32f, type: 2}
   m_PrefabInternal: {fileID: 1318312114}
---- !u!1 &1678287981
+--- !u!1 &1662652865 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1678287982}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (35)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1678287982
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1678287981}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: -0.99, y: 24.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 35
+  m_PrefabParentObject: {fileID: 127758, guid: e03cb94822f4bd74c80bc90fae6017a9, type: 2}
+  m_PrefabInternal: {fileID: 59914264}
 --- !u!1 &1682863350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1780,6 +1510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 0}
+  gameManager: {fileID: 0}
 --- !u!65 &1682863353
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1790,7 +1521,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 100, y: 100, z: 100}
+  m_Size: {x: 100, y: 100, z: 5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1682863354
 MeshFilter:
@@ -1806,11 +1537,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1682863350}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -32.8}
+  m_LocalPosition: {x: 0, y: 0, z: 13.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
 --- !u!114 &1682863356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1826,7 +1557,7 @@ MonoBehaviour:
     val: 10
     range: {x: 0, y: 10}
   health:
-    val: 1
+    val: 3
     range: {x: 0, y: 3}
   speed:
     val: 20
@@ -1846,176 +1577,68 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!1 &1707012291
+--- !u!1 &1729436086
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1707012292}
+  - 4: {fileID: 1729436087}
   m_Layer: 0
-  m_Name: EnemySpawnSocket (3)
+  m_Name: EnemySpawnSocket (17)
   m_TagString: Socket
   m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1707012292
+--- !u!4 &1729436087
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1707012291}
+  m_GameObject: {fileID: 1729436086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4, y: 8.01, z: 0}
+  m_LocalPosition: {x: 26.5, y: -18.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 3
---- !u!1 &1758043624
+  m_RootOrder: 9
+--- !u!1 &1932012654
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1758043625}
+  - 4: {fileID: 1932012655}
   m_Layer: 0
-  m_Name: EnemySpawnSocket (21)
+  m_Name: EnemySpawnSocket (13)
   m_TagString: Socket
   m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1758043625
+--- !u!4 &1932012655
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1758043624}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: 5.59, y: 23.03, z: -2.4100037}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 20
---- !u!1 &1822411936
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1822411937}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (9)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1822411937
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1822411936}
+  m_GameObject: {fileID: 1932012654}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.96, y: 9.09, z: -2.41}
+  m_LocalPosition: {x: -0.5, y: -2.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 8
---- !u!1 &1825392789
+  m_RootOrder: 13
+--- !u!1 &2002898035
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1825392790}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (1)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1825392790
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1825392789}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11, y: 5.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 1
---- !u!1 &1875227874
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1875227875}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (10)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1875227875
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1875227874}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.59, y: 6.59, z: -2.4100037}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 15
---- !u!1 &1929966837
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1929966838}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (20)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1929966838
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1929966837}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: -1, y: 19.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 19
---- !u!1 &1957289539
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1957289540}
+  - 4: {fileID: 2002898036}
   m_Layer: 0
   m_Name: EnemySpawnSocket (14)
   m_TagString: Socket
@@ -2023,18 +1646,72 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1957289540
+--- !u!4 &2002898036
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1957289539}
+  m_GameObject: {fileID: 2002898035}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: 12.31, z: 0}
+  m_LocalPosition: {x: 24.5, y: -2.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1212091565}
-  m_RootOrder: 11
+  m_RootOrder: 12
+--- !u!1 &2027109767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2027109768}
+  m_Layer: 0
+  m_Name: EnemySpawnSocket (20)
+  m_TagString: Socket
+  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2027109768
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2027109767}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 53.5, y: 23.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1212091565}
+  m_RootOrder: 6
+--- !u!1 &2034305902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2034305903}
+  m_Layer: 0
+  m_Name: EnemySpawnSocket (11)
+  m_TagString: Socket
+  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2034305903
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2034305902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.5, y: -34.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1212091565}
+  m_RootOrder: 15
 --- !u!1 &2050025875
 GameObject:
   m_ObjectHideFlags: 0
@@ -2121,30 +1798,3 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!1 &2061046800
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2061046801}
-  m_Layer: 0
-  m_Name: EnemySpawnSocket (22)
-  m_TagString: Socket
-  m_Icon: {fileID: 1638116407661442457, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2061046801
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2061046800}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0.000000029802322}
-  m_LocalPosition: {x: 2, y: 16.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212091565}
-  m_RootOrder: 21
