@@ -17,15 +17,13 @@ public class GameManager : MonoBehaviour
     {
         pauseMenuCanvas = GameObject.FindGameObjectWithTag("PauseCanvas") ;
         uiCanvas = GameObject.FindGameObjectWithTag("UICanvas");
-
         canvasToggler = pauseMenuCanvas.GetComponent<CanvasToggler>();
-        canvasToggler.Toggle();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        //Debug.Log(GameObject.FindGameObjectsWithTag("Derp").Length);
     }
 
     public void OnPause()

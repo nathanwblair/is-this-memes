@@ -1,24 +1,36 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyController : MonoBehaviour {
+public class EnemyController : MonoBehaviour
+{
     public StatsController stats;
     public GameObject bloodSplatter;
 
-	// Use this for initialization
-	void Start ()
+    public InputComponent input;
+    public PlayerController player;
+
+    // Use this for initialization
+    void Start()
     {
         stats = GetComponent<StatsController>();
         stats.speed.val = 10;
         stats.attack.val = 1;
         stats.health.onMinimum = OnDeath;
-	}
-	
-	// Update is called once per frame
-	void Update ()
+    }
+
+    // Update is called once per frame
+    void Update()
     {
-	    
-	}
+
+    }
+
+    void OnMouseOver()
+    {
+        if (input.isSlashing)
+        {
+            OnHit(player);
+        }
+    }
 
     void OnCollisionEnter(Collision collision)
     {

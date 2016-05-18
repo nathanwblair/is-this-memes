@@ -1,0 +1,1276 @@
+fileFormatVersion: 2
+guid: d4e2ee82250d42540962f9813cdca01a
+timeCreated: 1463527829
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bottom_lid
+    100002: Bottom_lid_2
+    100004: Eye
+    100006: Eye_2
+    100008: //RootNode
+    100010: limb1_1
+    100012: limb1_2
+    100014: limb1_3
+    100016: limb1_4
+    100018: limb1_5
+    100020: limb1_6
+    100022: limb1_7
+    100024: limb2_1
+    100026: limb2_2
+    100028: limb2_3
+    100030: limb2_4
+    100032: limb2_5
+    100034: limb2_6
+    100036: limb2_7
+    100038: limb3_1
+    100040: limb3_2
+    100042: limb3_3
+    100044: limb3_4
+    100046: limb3_5
+    100048: limb3_6
+    100050: limb3_7
+    100052: limb4_1
+    100054: limb4_2
+    100056: limb4_3
+    100058: limb4_4
+    100060: limb4_5
+    100062: limb4_6
+    100064: limb4_7
+    100066: limb5_1
+    100068: limb5_2
+    100070: limb5_3
+    100072: limb5_4
+    100074: limb5_5
+    100076: limb5_6
+    100078: limb5_6 1
+    100080: limb5_7
+    100082: limb5_7 1
+    100084: limb6_1
+    100086: limb6_2
+    100088: limb6_3
+    100090: limb6_4
+    100092: limb6_5
+    100094: limb7_1
+    100096: limb7_2
+    100098: limb7_3
+    100100: limb7_4
+    100102: limb7_5
+    100104: limb7_6
+    100106: limb7_7
+    100108: limb8_1
+    100110: limb8_2
+    100112: limb8_3
+    100114: limb8_4
+    100116: limb8_5
+    100118: limb8_6
+    100120: limb8_7
+    100122: limb9_1
+    100124: limb9_2
+    100126: limb9_3
+    100128: limb9_4
+    100130: limb9_5
+    100132: limb9_6
+    100134: limb9_7
+    100136: Limb_holder
+    100138: Main
+    100140: pSphere5
+    100142: Top_lid
+    100144: Top_Lid_2
+    400000: Bottom_lid
+    400002: Bottom_lid_2
+    400004: Eye
+    400006: Eye_2
+    400008: //RootNode
+    400010: limb1_1
+    400012: limb1_2
+    400014: limb1_3
+    400016: limb1_4
+    400018: limb1_5
+    400020: limb1_6
+    400022: limb1_7
+    400024: limb2_1
+    400026: limb2_2
+    400028: limb2_3
+    400030: limb2_4
+    400032: limb2_5
+    400034: limb2_6
+    400036: limb2_7
+    400038: limb3_1
+    400040: limb3_2
+    400042: limb3_3
+    400044: limb3_4
+    400046: limb3_5
+    400048: limb3_6
+    400050: limb3_7
+    400052: limb4_1
+    400054: limb4_2
+    400056: limb4_3
+    400058: limb4_4
+    400060: limb4_5
+    400062: limb4_6
+    400064: limb4_7
+    400066: limb5_1
+    400068: limb5_2
+    400070: limb5_3
+    400072: limb5_4
+    400074: limb5_5
+    400076: limb5_6
+    400078: limb5_6 1
+    400080: limb5_7
+    400082: limb5_7 1
+    400084: limb6_1
+    400086: limb6_2
+    400088: limb6_3
+    400090: limb6_4
+    400092: limb6_5
+    400094: limb7_1
+    400096: limb7_2
+    400098: limb7_3
+    400100: limb7_4
+    400102: limb7_5
+    400104: limb7_6
+    400106: limb7_7
+    400108: limb8_1
+    400110: limb8_2
+    400112: limb8_3
+    400114: limb8_4
+    400116: limb8_5
+    400118: limb8_6
+    400120: limb8_7
+    400122: limb9_1
+    400124: limb9_2
+    400126: limb9_3
+    400128: limb9_4
+    400130: limb9_5
+    400132: limb9_6
+    400134: limb9_7
+    400136: Limb_holder
+    400138: Main
+    400140: pSphere5
+    400142: Top_lid
+    400144: Top_Lid_2
+    4300000: pSphere5
+    7400000: Vulnerable to Idle
+    7400002: idle
+    7400004: Idle to Vulnerable
+    7400006: Vulnerable to Neutral
+    7400008: Hurt
+    7400010: Death
+    9500000: //RootNode
+    13700000: pSphere5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Vulnerable to Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Limb_holder
+        weight: 1
+      - path: Limb_holder/limb1_1
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5/limb1_6
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5/limb1_6/limb1_7
+        weight: 1
+      - path: Limb_holder/limb2_1
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5/limb2_6
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5/limb2_6/limb2_7
+        weight: 1
+      - path: Limb_holder/limb3_1
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5/limb3_6
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5/limb3_6/limb3_7
+        weight: 1
+      - path: Limb_holder/limb4_1
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5/limb4_6
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5/limb4_6/limb4_7
+        weight: 1
+      - path: Limb_holder/limb5_1
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5/limb5_6
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5/limb5_6/limb5_7
+        weight: 1
+      - path: Limb_holder/limb6_1
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5/limb5_6 1
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5/limb5_6 1/limb5_7
+          1
+        weight: 1
+      - path: Limb_holder/limb7_1
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5/limb7_6
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5/limb7_6/limb7_7
+        weight: 1
+      - path: Limb_holder/limb8_1
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5/limb8_6
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5/limb8_6/limb8_7
+        weight: 1
+      - path: Limb_holder/limb9_1
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5/limb9_6
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5/limb9_6/limb9_7
+        weight: 1
+      - path: Limb_holder/Main
+        weight: 1
+      - path: Limb_holder/Main/Bottom_lid
+        weight: 1
+      - path: Limb_holder/Main/Bottom_lid/Bottom_lid_2
+        weight: 1
+      - path: Limb_holder/Main/Eye
+        weight: 1
+      - path: Limb_holder/Main/Eye/Eye_2
+        weight: 1
+      - path: Limb_holder/Main/Top_lid
+        weight: 1
+      - path: Limb_holder/Main/Top_lid/Top_Lid_2
+        weight: 1
+      - path: pSphere5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 14
+      lastFrame: 107
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Limb_holder
+        weight: 1
+      - path: Limb_holder/limb1_1
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5/limb1_6
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5/limb1_6/limb1_7
+        weight: 1
+      - path: Limb_holder/limb2_1
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5/limb2_6
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5/limb2_6/limb2_7
+        weight: 1
+      - path: Limb_holder/limb3_1
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5/limb3_6
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5/limb3_6/limb3_7
+        weight: 1
+      - path: Limb_holder/limb4_1
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5/limb4_6
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5/limb4_6/limb4_7
+        weight: 1
+      - path: Limb_holder/limb5_1
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5/limb5_6
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5/limb5_6/limb5_7
+        weight: 1
+      - path: Limb_holder/limb6_1
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5/limb5_6 1
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5/limb5_6 1/limb5_7
+          1
+        weight: 1
+      - path: Limb_holder/limb7_1
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5/limb7_6
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5/limb7_6/limb7_7
+        weight: 1
+      - path: Limb_holder/limb8_1
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5/limb8_6
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5/limb8_6/limb8_7
+        weight: 1
+      - path: Limb_holder/limb9_1
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5/limb9_6
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5/limb9_6/limb9_7
+        weight: 1
+      - path: Limb_holder/Main
+        weight: 1
+      - path: Limb_holder/Main/Bottom_lid
+        weight: 1
+      - path: Limb_holder/Main/Bottom_lid/Bottom_lid_2
+        weight: 1
+      - path: Limb_holder/Main/Eye
+        weight: 1
+      - path: Limb_holder/Main/Eye/Eye_2
+        weight: 1
+      - path: Limb_holder/Main/Top_lid
+        weight: 1
+      - path: Limb_holder/Main/Top_lid/Top_Lid_2
+        weight: 1
+      - path: pSphere5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Idle to Vulnerable
+      takeName: Take 001
+      firstFrame: 108
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Limb_holder
+        weight: 1
+      - path: Limb_holder/limb1_1
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5/limb1_6
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5/limb1_6/limb1_7
+        weight: 1
+      - path: Limb_holder/limb2_1
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5/limb2_6
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5/limb2_6/limb2_7
+        weight: 1
+      - path: Limb_holder/limb3_1
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5/limb3_6
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5/limb3_6/limb3_7
+        weight: 1
+      - path: Limb_holder/limb4_1
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5/limb4_6
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5/limb4_6/limb4_7
+        weight: 1
+      - path: Limb_holder/limb5_1
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5/limb5_6
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5/limb5_6/limb5_7
+        weight: 1
+      - path: Limb_holder/limb6_1
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5/limb5_6 1
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5/limb5_6 1/limb5_7
+          1
+        weight: 1
+      - path: Limb_holder/limb7_1
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5/limb7_6
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5/limb7_6/limb7_7
+        weight: 1
+      - path: Limb_holder/limb8_1
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5/limb8_6
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5/limb8_6/limb8_7
+        weight: 1
+      - path: Limb_holder/limb9_1
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5/limb9_6
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5/limb9_6/limb9_7
+        weight: 1
+      - path: Limb_holder/Main
+        weight: 1
+      - path: Limb_holder/Main/Bottom_lid
+        weight: 1
+      - path: Limb_holder/Main/Bottom_lid/Bottom_lid_2
+        weight: 1
+      - path: Limb_holder/Main/Eye
+        weight: 1
+      - path: Limb_holder/Main/Eye/Eye_2
+        weight: 1
+      - path: Limb_holder/Main/Top_lid
+        weight: 1
+      - path: Limb_holder/Main/Top_lid/Top_Lid_2
+        weight: 1
+      - path: pSphere5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Vulnerable to Neutral
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 122
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Limb_holder
+        weight: 1
+      - path: Limb_holder/limb1_1
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5/limb1_6
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5/limb1_6/limb1_7
+        weight: 1
+      - path: Limb_holder/limb2_1
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5/limb2_6
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5/limb2_6/limb2_7
+        weight: 1
+      - path: Limb_holder/limb3_1
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5/limb3_6
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5/limb3_6/limb3_7
+        weight: 1
+      - path: Limb_holder/limb4_1
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5/limb4_6
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5/limb4_6/limb4_7
+        weight: 1
+      - path: Limb_holder/limb5_1
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5/limb5_6
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5/limb5_6/limb5_7
+        weight: 1
+      - path: Limb_holder/limb6_1
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5/limb5_6 1
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5/limb5_6 1/limb5_7
+          1
+        weight: 1
+      - path: Limb_holder/limb7_1
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5/limb7_6
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5/limb7_6/limb7_7
+        weight: 1
+      - path: Limb_holder/limb8_1
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5/limb8_6
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5/limb8_6/limb8_7
+        weight: 1
+      - path: Limb_holder/limb9_1
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5/limb9_6
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5/limb9_6/limb9_7
+        weight: 1
+      - path: Limb_holder/Main
+        weight: 1
+      - path: Limb_holder/Main/Bottom_lid
+        weight: 1
+      - path: Limb_holder/Main/Bottom_lid/Bottom_lid_2
+        weight: 1
+      - path: Limb_holder/Main/Eye
+        weight: 1
+      - path: Limb_holder/Main/Eye/Eye_2
+        weight: 1
+      - path: Limb_holder/Main/Top_lid
+        weight: 1
+      - path: Limb_holder/Main/Top_lid/Top_Lid_2
+        weight: 1
+      - path: pSphere5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Hurt
+      takeName: Take 001
+      firstFrame: 123
+      lastFrame: 127
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Limb_holder
+        weight: 1
+      - path: Limb_holder/limb1_1
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5/limb1_6
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5/limb1_6/limb1_7
+        weight: 1
+      - path: Limb_holder/limb2_1
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5/limb2_6
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5/limb2_6/limb2_7
+        weight: 1
+      - path: Limb_holder/limb3_1
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5/limb3_6
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5/limb3_6/limb3_7
+        weight: 1
+      - path: Limb_holder/limb4_1
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5/limb4_6
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5/limb4_6/limb4_7
+        weight: 1
+      - path: Limb_holder/limb5_1
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5/limb5_6
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5/limb5_6/limb5_7
+        weight: 1
+      - path: Limb_holder/limb6_1
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5/limb5_6 1
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5/limb5_6 1/limb5_7
+          1
+        weight: 1
+      - path: Limb_holder/limb7_1
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5/limb7_6
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5/limb7_6/limb7_7
+        weight: 1
+      - path: Limb_holder/limb8_1
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5/limb8_6
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5/limb8_6/limb8_7
+        weight: 1
+      - path: Limb_holder/limb9_1
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5/limb9_6
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5/limb9_6/limb9_7
+        weight: 1
+      - path: Limb_holder/Main
+        weight: 1
+      - path: Limb_holder/Main/Bottom_lid
+        weight: 1
+      - path: Limb_holder/Main/Bottom_lid/Bottom_lid_2
+        weight: 1
+      - path: Limb_holder/Main/Eye
+        weight: 1
+      - path: Limb_holder/Main/Eye/Eye_2
+        weight: 1
+      - path: Limb_holder/Main/Top_lid
+        weight: 1
+      - path: Limb_holder/Main/Top_lid/Top_Lid_2
+        weight: 1
+      - path: pSphere5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 128
+      lastFrame: 213
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Limb_holder
+        weight: 1
+      - path: Limb_holder/limb1_1
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5/limb1_6
+        weight: 1
+      - path: Limb_holder/limb1_1/limb1_2/limb1_3/limb1_4/limb1_5/limb1_6/limb1_7
+        weight: 1
+      - path: Limb_holder/limb2_1
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5/limb2_6
+        weight: 1
+      - path: Limb_holder/limb2_1/limb2_2/limb2_3/limb2_4/limb2_5/limb2_6/limb2_7
+        weight: 1
+      - path: Limb_holder/limb3_1
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5/limb3_6
+        weight: 1
+      - path: Limb_holder/limb3_1/limb3_2/limb3_3/limb3_4/limb3_5/limb3_6/limb3_7
+        weight: 1
+      - path: Limb_holder/limb4_1
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5/limb4_6
+        weight: 1
+      - path: Limb_holder/limb4_1/limb4_2/limb4_3/limb4_4/limb4_5/limb4_6/limb4_7
+        weight: 1
+      - path: Limb_holder/limb5_1
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5/limb5_6
+        weight: 1
+      - path: Limb_holder/limb5_1/limb5_2/limb5_3/limb5_4/limb5_5/limb5_6/limb5_7
+        weight: 1
+      - path: Limb_holder/limb6_1
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5/limb5_6 1
+        weight: 1
+      - path: Limb_holder/limb6_1/limb6_2/limb6_3/limb6_4/limb6_5/limb5_6 1/limb5_7
+          1
+        weight: 1
+      - path: Limb_holder/limb7_1
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5/limb7_6
+        weight: 1
+      - path: Limb_holder/limb7_1/limb7_2/limb7_3/limb7_4/limb7_5/limb7_6/limb7_7
+        weight: 1
+      - path: Limb_holder/limb8_1
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5/limb8_6
+        weight: 1
+      - path: Limb_holder/limb8_1/limb8_2/limb8_3/limb8_4/limb8_5/limb8_6/limb8_7
+        weight: 1
+      - path: Limb_holder/limb9_1
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5/limb9_6
+        weight: 1
+      - path: Limb_holder/limb9_1/limb9_2/limb9_3/limb9_4/limb9_5/limb9_6/limb9_7
+        weight: 1
+      - path: Limb_holder/Main
+        weight: 1
+      - path: Limb_holder/Main/Bottom_lid
+        weight: 1
+      - path: Limb_holder/Main/Bottom_lid/Bottom_lid_2
+        weight: 1
+      - path: Limb_holder/Main/Eye
+        weight: 1
+      - path: Limb_holder/Main/Eye/Eye_2
+        weight: 1
+      - path: Limb_holder/Main/Top_lid
+        weight: 1
+      - path: Limb_holder/Main/Top_lid/Top_Lid_2
+        weight: 1
+      - path: pSphere5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

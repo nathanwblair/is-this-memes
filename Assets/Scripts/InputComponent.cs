@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Reflection;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -8,6 +9,8 @@ public class InputComponent : MonoBehaviour
     private Camera camera;
     private GameManager gameManager;
     private PlayerController player;
+
+    bool isDragging = false;
 
     //slash variables
     public GameObject emitterPrefab;
@@ -21,6 +24,13 @@ public class InputComponent : MonoBehaviour
             lerpAmount = 0;
             dead = false;
             hasDirection = false;
+
+            Vector3 lineEnd = Camera.main.ScreenToWorldPoint(new Vector3(touchStart.x, touchStart.y, 20.0f));
+            emitter.transform.position = touchStart;
+
+            //var trail = emitter.GetComponent<TrailRenderer>();
+            //var dynMethod = trail.GetType().GetMethod("Reset", BindingFlags.NonPublic | BindingFlags.Instance);
+            //dynMethod.Invoke(trail, new object[] {});
         }
         public Vector2 touchStart, touchEnd;
         public GameObject emitter;
@@ -49,6 +59,12 @@ public class InputComponent : MonoBehaviour
     private Vector2 touchEnd;
     private float slashTime;
 
+    private Vector2 prevMousePos;
+
+    private bool isMouseMoving = false;
+
+    public bool isSlashing = false;
+
     //debug vars
 
     // Use this for initialization
@@ -64,11 +80,15 @@ public class InputComponent : MonoBehaviour
 
         gameManager = GameObject.FindGameObjectWithTag("GameManager")
             .GetComponent<GameManager>();
+
+        prevMousePos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
     }
 
     // Update is called once per frame
     void Update()
     {
+        isSlashing = false;
+
         if (slashTime >= slashTimeout)
         {
             slashList[slashList.Count - 1].Kill();
@@ -79,6 +99,7 @@ public class InputComponent : MonoBehaviour
             //slash begins
             if (Input.GetTouch(0).phase == TouchPhase.Began)
             {
+                isSlashing = true;
                 touchStart = Input.GetTouch(0).position;
                 //do the slash
 
@@ -110,6 +131,7 @@ public class InputComponent : MonoBehaviour
                 if (Input.GetTouch(0).phase == TouchPhase.Moved
                    && !slashList[slashList.Count - 1].dead)
                 {
+                    isSlashing = true;
                     slashTime += Time.deltaTime;
                     touchEnd = Input.GetTouch(0).position;
                     slashList[slashList.Count - 1].touchEnd = touchEnd;
@@ -118,7 +140,6 @@ public class InputComponent : MonoBehaviour
                     RaycastHit rayHit;
                     Ray raycastOrigin =
                         camera.ScreenPointToRay(new Vector3(touchEnd.x, touchEnd.y, 1));
-
                     Physics.Raycast(raycastOrigin, out rayHit, 1000.0f);
                     if (rayHit.collider != null)
                     {
@@ -146,8 +167,7 @@ public class InputComponent : MonoBehaviour
                     }
                 }
                 //slash ends
-                else if (Input.GetTouch(0).phase == TouchPhase.Ended
-                    && !slashList[slashList.Count - 1].dead)
+                else
                 {
                     //if the slash was fine
                     slashTime = 0;
@@ -155,9 +175,94 @@ public class InputComponent : MonoBehaviour
                 }
             }
         }
+
+        var mousePos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        isMouseMoving = false;
+
+        if (Input.GetMouseButton(0)
+            && prevMousePos != mousePos)
+        {
+            if (!isDragging)
+            {
+                prevMousePos = mousePos;
+                StartSlash(mousePos);
+            }
+            else
+            {
+                var direction = (mousePos - prevMousePos).normalized;
+
+                DoSlash(mousePos, direction);
+            }
+
+            this.isDragging = true;
+        }
+
+        if (Input.GetMouseButtonUp(0))
+        {
+            this.isDragging = false;
+            slashTime = 0;
+            slashList[slashList.Count - 1].Kill();
+        }
+
+
+
         if (!gameManager.paused)
         {
             UpdateSlash();
+        }
+
+        if (isMouseMoving)
+            prevMousePos = mousePos;
+    }
+
+    void DoSlash(Vector2 position, Vector2 direction)
+    {
+        isSlashing = true;
+        slashTime += Time.deltaTime;
+        touchEnd = position;
+        slashList[slashList.Count - 1].touchEnd = touchEnd;
+
+        //store direction
+        if (!slashList[slashList.Count - 1].hasDirection)
+        {
+            slashList[slashList.Count - 1].direction = (touchEnd - touchStart).normalized;
+        }
+
+        //check angle for rejection
+        float deltaAngle = Vector2.Dot(slashList[slashList.Count - 1].direction, direction);
+        if (deltaAngle <= -0.25f)
+        {
+            slashList[slashList.Count - 1].Kill();
+        }
+    }
+
+    void StartSlash(Vector2 position)
+    {
+        isSlashing = true;
+        touchStart = position;
+        //do the slash
+
+        if (touchStart.x < 80 && touchStart.y < 80)
+        {
+            if (gameManager.paused)
+            {
+                gameManager.OnResume();
+            }
+            else
+            {
+                gameManager.OnPause();
+            }
+        }
+
+        if (!gameManager.paused)
+        {
+            Slash e = new Slash(
+                new Vector2(touchStart.x, touchStart.y),
+                new Vector2(touchStart.x, touchStart.y),
+                Instantiate(emitterPrefab));
+
+            slashList.Add(e);
+            slashTime = 0;
         }
     }
 

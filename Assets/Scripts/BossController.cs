@@ -20,7 +20,9 @@ public class BossController : MonoBehaviour
     public float phaseTime = 5;
 
     private float hitCooldown = 0;
-    private float absoluteHitCooldown = 0.016f;
+    private float absoluteHitCooldown = 0.016f * 3;
+
+    Animator animation;
 
     // Use this for initialization
     void Start()
@@ -29,10 +31,12 @@ public class BossController : MonoBehaviour
         stats.health.onMinimum = OnDeath;
 
         startPoint = transform.position;
-        endPoint = new Vector3(0, 0, 12);
+        endPoint = new Vector3(0, 0, 50);
 
         gameManager = GameObject.FindGameObjectWithTag("GameManager")
             .GetComponent<GameManager>();
+
+        animation = gameObject.GetComponentInChildren<Animator>();
     }
     // Update is called once per frame
     void Update()
@@ -45,6 +49,7 @@ public class BossController : MonoBehaviour
                 phaseLerp += phaseLerpInc * Time.deltaTime;
                 if (phaseLerp >= 1)
                 {
+                    animation.SetTrigger("Vulnerable");
                     phaseLerp = 0;
                     phaseLerpIncreasing = 0;
                 }
@@ -80,6 +85,8 @@ public class BossController : MonoBehaviour
         List<SphereCollider> colliderList = new List<SphereCollider>();
         GetComponents<SphereCollider>(colliderList);
 
+        animation.SetTrigger("IdleToVulnerable");
+
         foreach (SphereCollider sc in colliderList)
         {
             sc.enabled = true;
@@ -91,7 +98,7 @@ public class BossController : MonoBehaviour
         inPhase = false;
         List<SphereCollider> colliderList = new List<SphereCollider>();
         GetComponents<SphereCollider>(colliderList);
-
+        animation.SetTrigger("Vulnerable to Idle");
         foreach (SphereCollider sc in colliderList)
         {
             sc.enabled = false;
@@ -102,6 +109,7 @@ public class BossController : MonoBehaviour
     {
         if (hitCooldown <= 0)
         {
+            animation.SetTrigger("Hurt");
             stats.health.Decrease(player.stats.attack.val);
         }
     }

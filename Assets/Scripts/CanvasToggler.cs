@@ -7,8 +7,9 @@ public class CanvasToggler : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
-        canvasObject = GetComponent<Canvas>();   
-	}
+        canvasObject = gameObject.GetComponent<Canvas>();
+        canvasObject.enabled = !canvasObject.enabled;
+    }
 
     public void Toggle()
     {
